@@ -28,11 +28,13 @@ autoIndexId:true
 });  
  db.employee.createIndex(
 {
-
+"nif": 1
 },
  {
 name: "employee_ix_1",
 unique: true
 }
 )
+
+
 
